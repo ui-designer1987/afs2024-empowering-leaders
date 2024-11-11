@@ -1,0 +1,113 @@
+button{
+    text-transform: uppercase;
+    text-shadow:1px 1px 1px #000;
+    border:1px #555 solid!important;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* ==========================================================================
+   GLOBAL
+   ========================================================================== */
+
+.muted {
+    color: #9c9c9c;
+}
+
+small.muted {
+    font-size: 100%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* BUTTON-COMMON-CP
+   ========================================================================== */
+
+button.button-common-cp,
+a.button-common-cp,
+input[type="button"].button-common-cp,
+input[type="submit"].button-common-cp {
+    background: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    text-align: center;
+    border: 0;
+    width: auto;
+    padding: 17px 30px;
+    display: block;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+button.button-common-cp:hover,
+a.button-common-cp:hover,
+input[type="button"].button-common-cp:hover,
+input[type="submit"].button-common-cp:hover {
+    background: #c2af7b;
+}
+
+button.button-common-cp:disabled,
+a.button-common-cp:disabled,
+input[type="button"].button-common-cp:disabled,
+input[type="submit"].button-common-cp:disabled {
+    background: #d2d2d2;
+    color: #fff;
+}
+
+
+/*dp*/
+
+.dp-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.dp-con {
+    width: auto;
+    background: #fff;
+    color: #000 !important;
+    position: absolute;
+    right: 0;
+    top: 29px;
+    display: none;
+    text-align: left;
+    z-index: 9999;
+}
+
+.dp-con > ul > li a {
+    color: #000;
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+	font-family: "Host Grotesk", sans-serif;
+}
+
+.dp-con > ul > li a:hover {
+    background: #fff;
+}
+
+.toggleHideShow {
+    display: block;
+}
+
+.target {
+    border-bottom-right-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    background: #c2af7b!important;
+}
+.target + .toggleHideShow {
+    border-top-left-radius:0!important;
+}
